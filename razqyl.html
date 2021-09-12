@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>BLESSED</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>BLESSED</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">SINOPSIS</a></li>
+                    <li><a href="#structure">CHAPTER LIST</a></li>
+                    <li><span class="drktoggle" onclick="setDarkMode()" id="darkbtn">Going Dark 🌚</span></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script>
+        if(localStorage.getItem('theme') == 'dark')
+            setDarkMode()
+            
+        function setDarkMode() {
+            let keterangan = ''
+            let isDark = document.body.classList.toggle('darkmode')
+
+            if(isDark) {
+                keterangan = 'Going Light 🌞'
+                localStorage.setItem('theme', 'dark')
+            } else {
+                keterangan = 'Going Dark 🌚'
+                localStorage.removeItem('theme')
+            }
+            document.getElementById('darkbtn').innerHTML = keterangan
+
+        }
+    </script>
+    <div class="wrapper">
+        <section id="home">
+            <div class="kolom">
+                <p class="deskripsi"></p>
+                <h2>SINOPSIS</h2>
+                <p>
+                    Pada tahun 2025 muncul sebuah gerbang aneh yang menghubungkan dunia monster ke dunia manusia.
+                    Ada seorang remaja bernama Rizuki yang mendapatkan bless dengan kejadian yang tak terduga.
+                    Bagaimana kehidupan Rizuki setelah mendapatkan Bless?</p>
+            </div>
+        </section>
+    <div class="wrapper">
+        <section id="structure">
+            <div class="struktur">
+                <p class="deskripsi"></p>
+                <h7>CHAPTER LIST</h7>
+                <p><a href="Chapter_1.pdf">Chapter 1</a></p>
+                <p><a href="Chapter_2.pdf">Chapter 2</a></p>
+                <p><a href="Chapter_3.pdf">Chapter 3</a></p>
+                <p><a href="Chapter_4.pdf">Chapter 4</a></p>
+                <p><a href="Chapter_5.pdf">Chapter 5</a></p>
+                <p><a href="Chapter_6.pdf">Chapter 6</a></p>
+                <p><a href="Chapter_7.pdf">Chapter 7</a></p>
+                <p><a href="Chapter_8.pdf">Chapter 8</a></p>
+            </div>
+        </section>
+    </div>
+    <div id="cr">
+        <div class="wrapper">
+            &copy; 2021. <b>RAZQYL.</b> ALL Right Reserved.
+        </div>
+    </div>
+</body>
+</html>
