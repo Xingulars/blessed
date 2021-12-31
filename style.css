@@ -89,7 +89,7 @@ section {
     margin-bottom: 50px;
 }
 .kolom {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 10px;
 }
 .kolom .deskripsi {
@@ -178,122 +178,15 @@ p {
 }
 
 h3 {
-    font-family: 'comic sans ms';
-    font-weight: 600;
-    font-size: 25px;
-    margin-bottom: 20px;
-    width: 100%;
-    color: #4d2e06;
-    line-height: 50px;
-}
-.tengah {
-    text-align: center;
-}
-
-.tengah p {
-    text-align: center;
-}
-.kontak {
-    top: 40px;
-    text-align: center;
-    width: 100%;
-}
-h5 {
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-.medsos-list {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.kartu-medsos {
-    width: 20%;
-    margin:  0 auto;
-}
-.kartu-medsos img {
-    width: 80%;
-}
-
-.kartu-medsos p {
-    background: #B8DFD8;
-    border-radius: 10px;
-    margin-top: 10px;
-    padding: 10px 13px 10px 13px;
-    cursor: pointer;
-    font-weight: 10px;
-}
-.darkmode .kartu-medsos p {
-    background: #260150;
-    border-radius: 10px;
-    margin-top: 10px;
-    padding: 10px 13px 10px 13px;
-    cursor: pointer;
-    font-weight: 10px;
-}
-
-.kartu-medsos p:hover {
-    background: rgb(135, 215, 247);
-}
-#penutup {
-    background: #B8DFD8;
-    padding: 50px 0px 50px 0px;
-    width: 100%;
-}
-
-.darkmode #penutup {
-    background: #260150;
-    padding: 50px 0px 50px 0px;
-    width: 100%;
-}
-.footer-section p :hover{
-    background: rgb(135, 215, 247);
-    border-radius: 10px;
-}
-
-.footer {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
-.footer-section {
-    width: 20%;
-    margin: 0 auto;
-}
-
-
-h6 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    font-weight: 800px;
-    margin-bottom: 20px;
-    color: #364f6b;
-    width: 100%;
-    line-height: 50px;
-}
-
-h7 {
     font-family: 'heartblue';
     font-weight: 600px;
     color: #63431a;
     font-size: 25px;
 }
-.darkmode h7 {
+.darkmode h3 {
     color: #e2942d;
 }
 
-.medsos-list img {
-    object-position: center;
-}
-.medsos-list p {
-    text-align: center;
-}
 #cr {
     text-align: center;
     width: 100%;
